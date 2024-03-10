@@ -25,7 +25,7 @@ print(my_motobike['price'])
 my_motobike['price'] = 23500
 print(my_motobike)
 
-# Добавление элементов в словать
+# Добавление элементов в словарь
 my_motobike['is_new'] = True
 my_motobike['delivery'] = True
 my_motobike['delivery2'] = True
