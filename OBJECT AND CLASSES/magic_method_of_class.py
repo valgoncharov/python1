@@ -10,6 +10,9 @@ class Comment:
         return (f"{self.text} {other.text}",
                 self.votes_qty + other.votes_qty)
 
+    def __bool__(self, also):
+        return
+
 
 f_com = Comment("First")
 f_com.upvote()
